@@ -15,10 +15,8 @@ def push(elem: Any) -> None:
 	"""
 	global stack_list
 
-	print("Стек до добавления", stack_list)
 	stack_list.append(elem)
 	print(elem)
-	print("Стек после добавления", stack_list)
 	return None
 
 
