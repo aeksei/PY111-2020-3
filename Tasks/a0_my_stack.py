@@ -50,7 +50,9 @@ def peek(ind: int = 0) -> Any:
 	:return: peeked element
 	"""
 	print(ind)
-	return None
+	global stack_list
+	if ind >= 0:
+		return stack_list[-ind-1]
 
 
 def clear() -> None:
