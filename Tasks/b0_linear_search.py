@@ -16,6 +16,7 @@ def min_search(arr: Sequence) -> int:
 
 	for index, value in enumerate(arr):
 		if value < min_:
+			min_ = value
 			min_index = index
 
 	return min_index
